@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>Controle de Pedidos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <h1> CADASTRO DE CLIENTES</h1>
+
+    <ul id="usersCli"></ul>
+    <hr>
+
+    <div class="col-md-4">
+        <form>
+            <div class="form-group">
+                <label for="nameInput">Nome</label>
+                <input type="text" class="form-control" id="nameInput" placeholder="Nome">
+            </div>
+
+            <br>
+            <div class="form-group">
+                <label for="telInput">Telefone</label>
+                <input type="int" class="form-control" id="telInput" placeholder="Telefone">
+            </div>
+
+            <br>
+            <div class="form-group">
+                <label for="emailInput">E-mail</label>
+                <input type="email" class="form-control" id="emailInput" placeholder="E-mail">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="cidadeInput">Cidade</label>
+                <input type="text" class="form-control" id="cidadeInput" placeholder="Cidade">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="estadoInput">Estado</label>
+                <input type="text" class="form-control" id="estadoInput" placeholder="Estado">
+            </div>
+
+
+            <br><br>
+            <br><br>
+
+            <button class="btn btn-lg btn-block btn-primary" id="addButton">Adicionar</button>
+        </form>
+    </div>
+
+    <br><br>
+    <a class="button button-clear" href="index.html">Voltar para Home</a>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.11.0/firebase.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/cliente.js"></script>
+
+</body>
+
+</html>
